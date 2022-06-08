@@ -31,4 +31,17 @@
         End If
         lblfinalprice.Text = "£" & FinalPrice
     End Sub
+
+    Private Sub btnfigureout_Click(sender As Object, e As EventArgs) Handles btnfigureout.Click
+        Dim Base As Single
+        Dim Height As Single
+        Dim Area As Single
+
+        Base = Val(txtbase.Text)
+        Height = Val(txtheight.Text)
+
+        Area = 0.5 * Base * Height
+
+        lblarea.Text = Area & "cm²"
+    End Sub
 End Class
