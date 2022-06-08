@@ -45,6 +45,11 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.txtbase = New System.Windows.Forms.TextBox()
         Me.txtheight = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.lblanswer = New System.Windows.Forms.Label()
+        Me.txtguess = New System.Windows.Forms.TextBox()
+        Me.btnbegin = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -270,12 +275,61 @@ Partial Class Form1
         Me.txtheight.Size = New System.Drawing.Size(185, 34)
         Me.txtheight.TabIndex = 22
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(1119, 577)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(253, 28)
+        Me.Label11.TabIndex = 23
+        Me.Label11.Text = "Random Number Guesser"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(893, 659)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(169, 28)
+        Me.Label13.TabIndex = 24
+        Me.Label13.Text = "Guess from 1-20"
+        '
+        'lblanswer
+        '
+        Me.lblanswer.AutoSize = True
+        Me.lblanswer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblanswer.Location = New System.Drawing.Point(893, 833)
+        Me.lblanswer.Name = "lblanswer"
+        Me.lblanswer.Size = New System.Drawing.Size(79, 30)
+        Me.lblanswer.TabIndex = 25
+        Me.lblanswer.Text = "XXXXX"
+        '
+        'txtguess
+        '
+        Me.txtguess.Location = New System.Drawing.Point(1119, 659)
+        Me.txtguess.Name = "txtguess"
+        Me.txtguess.Size = New System.Drawing.Size(125, 34)
+        Me.txtguess.TabIndex = 26
+        '
+        'btnbegin
+        '
+        Me.btnbegin.Location = New System.Drawing.Point(893, 754)
+        Me.btnbegin.Name = "btnbegin"
+        Me.btnbegin.Size = New System.Drawing.Size(128, 47)
+        Me.btnbegin.TabIndex = 27
+        Me.btnbegin.Text = "Begin"
+        Me.btnbegin.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 28.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.ClientSize = New System.Drawing.Size(1584, 988)
+        Me.Controls.Add(Me.btnbegin)
+        Me.Controls.Add(Me.txtguess)
+        Me.Controls.Add(Me.lblanswer)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.txtheight)
         Me.Controls.Add(Me.txtbase)
         Me.Controls.Add(Me.Label12)
@@ -331,4 +385,9 @@ Partial Class Form1
     Friend WithEvents Label12 As Label
     Friend WithEvents txtbase As TextBox
     Friend WithEvents txtheight As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents lblanswer As Label
+    Friend WithEvents txtguess As TextBox
+    Friend WithEvents btnbegin As Button
 End Class

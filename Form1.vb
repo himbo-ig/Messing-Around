@@ -44,4 +44,19 @@
 
         lblarea.Text = Area & "cm²"
     End Sub
+
+    Private Sub btnbegin_Click(sender As Object, e As EventArgs) Handles btnbegin.Click
+        Dim UserGuess As Integer
+        Dim RandomNum As Integer
+
+        UserGuess = Val(txtguess.Text)
+
+        RandomNum = Int((20 * Rnd()) + 0)
+
+        If UserGuess = RandomNum Then
+            lblanswer.Text = "Correct! The random number was " & RandomNum
+        Else
+            lblanswer.Text = "Sorry, the random number was " & RandomNum & ". Better luck next time!"
+        End If
+    End Sub
 End Class
