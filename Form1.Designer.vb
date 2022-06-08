@@ -91,7 +91,7 @@ Partial Class Form1
         'txthours
         '
         Me.txthours.Location = New System.Drawing.Point(284, 182)
-        Me.txthours.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txthours.Margin = New System.Windows.Forms.Padding(4)
         Me.txthours.Name = "txthours"
         Me.txthours.Size = New System.Drawing.Size(185, 34)
         Me.txthours.TabIndex = 4
@@ -99,7 +99,7 @@ Partial Class Form1
         'txtrate
         '
         Me.txtrate.Location = New System.Drawing.Point(284, 270)
-        Me.txtrate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtrate.Margin = New System.Windows.Forms.Padding(4)
         Me.txtrate.Name = "txtrate"
         Me.txtrate.Size = New System.Drawing.Size(185, 34)
         Me.txtrate.TabIndex = 5
@@ -107,7 +107,7 @@ Partial Class Form1
         'btncalc
         '
         Me.btncalc.Location = New System.Drawing.Point(464, 405)
-        Me.btncalc.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btncalc.Margin = New System.Windows.Forms.Padding(4)
         Me.btncalc.Name = "btncalc"
         Me.btncalc.Size = New System.Drawing.Size(141, 41)
         Me.btncalc.TabIndex = 6
@@ -157,7 +157,7 @@ Partial Class Form1
         'txtprice
         '
         Me.txtprice.Location = New System.Drawing.Point(1119, 188)
-        Me.txtprice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtprice.Margin = New System.Windows.Forms.Padding(4)
         Me.txtprice.Name = "txtprice"
         Me.txtprice.Size = New System.Drawing.Size(185, 34)
         Me.txtprice.TabIndex = 11
@@ -166,7 +166,7 @@ Partial Class Form1
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(1188, 284)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox1.TabIndex = 12
@@ -175,7 +175,7 @@ Partial Class Form1
         'btnstart
         '
         Me.btnstart.Location = New System.Drawing.Point(893, 378)
-        Me.btnstart.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnstart.Margin = New System.Windows.Forms.Padding(4)
         Me.btnstart.Name = "btnstart"
         Me.btnstart.Size = New System.Drawing.Size(141, 41)
         Me.btnstart.TabIndex = 13
@@ -199,9 +199,9 @@ Partial Class Form1
         Me.Label8.Location = New System.Drawing.Point(320, 549)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(187, 28)
+        Me.Label8.Size = New System.Drawing.Size(181, 28)
         Me.Label8.TabIndex = 15
-        Me.Label8.Text = "Area of  a Triangle"
+        Me.Label8.Text = "Area of a Triangle"
         '
         'Label9
         '
@@ -226,7 +226,7 @@ Partial Class Form1
         'btnfigureout
         '
         Me.btnfigureout.Location = New System.Drawing.Point(464, 783)
-        Me.btnfigureout.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnfigureout.Margin = New System.Windows.Forms.Padding(4)
         Me.btnfigureout.Name = "btnfigureout"
         Me.btnfigureout.Size = New System.Drawing.Size(141, 41)
         Me.btnfigureout.TabIndex = 18
@@ -257,7 +257,7 @@ Partial Class Form1
         'txtbase
         '
         Me.txtbase.Location = New System.Drawing.Point(284, 624)
-        Me.txtbase.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtbase.Margin = New System.Windows.Forms.Padding(4)
         Me.txtbase.Name = "txtbase"
         Me.txtbase.Size = New System.Drawing.Size(185, 34)
         Me.txtbase.TabIndex = 21
@@ -265,7 +265,7 @@ Partial Class Form1
         'txtheight
         '
         Me.txtheight.Location = New System.Drawing.Point(284, 704)
-        Me.txtheight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtheight.Margin = New System.Windows.Forms.Padding(4)
         Me.txtheight.Name = "txtheight"
         Me.txtheight.Size = New System.Drawing.Size(185, 34)
         Me.txtheight.TabIndex = 22
@@ -300,7 +300,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "Utter Rubbish"
         Me.ResumeLayout(False)
